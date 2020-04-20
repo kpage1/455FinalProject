@@ -25,15 +25,6 @@ def shopping():
 def teams():
     return render_template("teams.html")
 
-#@app.route("/<name>")
-#def user(name):
-  #  return f"Hello {name}!"
-
-
-#@app.route("/admin/")
-#def admin():
-
-   # return redirect(url_for("user",name="Admin!"))
 
 
 if __name__ == "__main__":
