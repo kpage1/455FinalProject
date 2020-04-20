@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -8,7 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-image: url("Image.jpg");
+  background-image: url("");
 }
 td {
   background-color: darkslateblue;
@@ -17,6 +17,10 @@ td {
 .topnav {
   overflow: hidden;
   background-color: #808080;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  min-width: 1000px;
 }
 
 .topnav a {
@@ -26,6 +30,7 @@ td {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
 }
 
 .topnav a:hover {
@@ -37,25 +42,59 @@ td {
   background-color: black;
   color: deepskyblue ;
 }
+h1{
+   padding: 60px;
+  text-align: center;
+  background: #0a3665;
+  color: white;
+  font-size: 30px;
+}
+h4{
+  padding: 20px;
+  text-align: center;
+  background: #0a3665;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
 </style>
 </head>
 <body>
     <div class="topnav">
-        <a class="active" href="retrieve.php">Players</a>
-        <a>Teams</a>
-        <a>Game</a>
-        <a>Game Data</a>
-        <a>Shopping </a>
-        <a>Memberships</a>
-        <a>Login</a>
-        <a href="#"> |</a>
+        <a href="index.html">Home</a>
+        <a href="players.html">Players</a>
+        <a href="teams.html">Teams</a>
+        <a href="gameData.html">Game Data</a>
+        <a href="shopping.html">Shopping </a>
+        <a><button class="btn">Login</button></a>
+
     </div>
-    <h1>Welcome to the Website</h1>
 
 
-    <h1>Welcome </h1>
-    <p>Explore our Office</p>
 
+    <h1>Welcome to the NBA Store</h1>
+    <h4>The purpose of this site is to
+    allow users to look at current NBA Rosters,
+    see players game data over the past season, buy NBA merchandise,
+    and become a part of our membership club.</h4>
+
+    <p>Use the Navigation Bar to access information to players, teams,
+    specific game data, to buy merchandise, or to become a part of our
+    membership club. </p>
 
 
 </body>
